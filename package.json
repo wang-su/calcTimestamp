@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wang-su/timestamp.git"
+    "url": "https://github.com/wang-su/calcTimestamp.git"
   },
   "keywords": [
     "timestamp",
@@ -20,7 +20,7 @@
   "author": "wangsu01@baidu.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wang-su/timestamp/issues"
+    "url": "https://github.com/wang-su/calcTimestamp/issues"
   },
-  "homepage": "https://github.com/wang-su/timestamp"
+  "homepage": "https://github.com/wang-su/calcTimestamp"
 }

@@ -1,0 +1,26 @@
+{
+  "name": "timestamp",
+  "version": "0.0.1",
+  "description": "count the timestamp -7 , +7",
+  "main": "index.js",
+  "bin": {
+      "timestamp": "timestamp.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wang-su/timestamp.git"
+  },
+  "keywords": [
+    "timestamp",
+    "time tooles"
+  ],
+  "author": "wangsu01@baidu.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wang-su/timestamp/issues"
+  },
+  "homepage": "https://github.com/wang-su/timestamp"
+}

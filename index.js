@@ -20,9 +20,9 @@ function getDayTimestamp(now, offset) {
     var gtm0 = now - (now % 86400); // GTM 0
     
     var dayline = (now - gtm0) / 3600;
-    
+    console.log(dayline);
     // 时差跨天
-    if (dayline + offset > 23) {
+    if (dayline + offset > 24) {
         return gtm0 + 86400 + offset * 3600 * - 1;
     } else {
         return gtm0 + offset * 3600 * - 1;
@@ -53,4 +53,10 @@ module.exports = {
     getDayTimestamp : getDayTimestamp,
     getHourTimestamp : getHourTimestamp,
     getMinuteTimestamp : getMinuteTimestamp,
+}
+
+
+debugger;
+for(var i=1431013800,j=0;j<480;i+=360,j++){
+    console.log("%s, %s", new Date(i * 1000), new Date(getDayTimestamp(i) * 1000));
 }

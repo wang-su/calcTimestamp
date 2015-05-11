@@ -21,7 +21,7 @@ function getDayTimestamp(now, offset) {
     
     var dayline = (now - gtm0) / 3600;
     // 时差跨天
-    if (dayline + offset > 24) {
+    if (dayline + offset >= 24) {
         return gtm0 + 86400 + offset * 3600 * - 1;
     } else {
         return gtm0 + offset * 3600 * - 1;
